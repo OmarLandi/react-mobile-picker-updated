@@ -2,5 +2,7 @@
 node_modules
 bower_components
 npm-debug.log
+package-lock.json
+dist/
 
 examples/__build__
