@@ -1,10 +1,9 @@
 import React from 'react';
-import {render} from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './containers/app';
 
 import './example.less';
 
-render(
-  <App />,
-  document.getElementById('app')
-);
+const app = createRoot(document.getElementById('app'));
+
+app.render(<App />);
