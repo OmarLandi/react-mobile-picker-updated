@@ -2,6 +2,8 @@
 
 # 🚧 This fork of React Mobile Picker updates the package to use the latest versions of React, Babel, and Webpack.
 
+# Updated based on https://github.com/joxelstudios/react-mobile-picker/tree/joxelstudios/issue%2340
+
 ## Included Changes
 
 - Updated dependencies for React 18.2.0 + compatibility.
