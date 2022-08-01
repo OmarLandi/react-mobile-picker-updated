@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-picker-updated",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Select box component for React like iOS",
   "main": "dist/react-mobile-picker-updated.js",
   "repository": {
