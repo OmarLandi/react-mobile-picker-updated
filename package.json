@@ -2,7 +2,7 @@
   "name": "react-mobile-picker-updated",
   "version": "0.1.1",
   "description": "Select box component for React like iOS",
-  "main": "dist/lib/react-mobile-picker-updated.js",
+  "main": "dist/react-mobile-picker-updated.js",
   "repository": {
     "type": "git",
     "url": "omarlandi/react-mobile-picker-updated"
@@ -50,10 +50,9 @@
     "webpack-merge": "^5.3.0"
   },
   "scripts": {
-    "clean": "rimraf lib",
     "start": "webpack serve ./examples --config build-utils/webpack.config.js --env env=examples",
     "build": "webpack --config build-utils/webpack.config.js --env env=prod",
-    "build-examples": "rimraf examples/dist && webpack --config build-utils/webpack.config.js --env env=examples",
+    "build-examples": "webpack --config build-utils/webpack.config.js --env env=examples",
     "build:analyze": "npm run build -- --env addon=bundleanalyze",
     "lint": "eslint --ext js,jsx src",
     "lint:fix": "eslint --ext js,jsx src --fix",

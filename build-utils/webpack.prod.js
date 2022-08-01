@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   devtool: 'source-map',
   output: {
-    filename: './lib/[name].js',
+    filename: './[name].js',
     library: {
       name: 'Picker',
       type: 'umd',
