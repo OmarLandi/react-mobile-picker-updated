@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Picker from 'react-mobile-picker'
+import Picker from 'react-mobile-picker-updated'
 
 function generateNumberArray(begin, end) {
   let array = []

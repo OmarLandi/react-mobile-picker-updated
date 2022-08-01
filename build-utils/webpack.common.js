@@ -2,7 +2,7 @@ const ESLintPlugin = require('eslint-webpack-plugin')
 
 module.exports = {
   entry: {
-    'react-mobile-picker': './src/index.js',
+    'react-mobile-picker-updated': './src/index.js',
   },
   stats: { children: true },
   module: {

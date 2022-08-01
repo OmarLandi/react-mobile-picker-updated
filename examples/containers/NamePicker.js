@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Picker from 'react-mobile-picker';
+import Picker from 'react-mobile-picker-updated';
 
 export default class NamePicker extends Component {
   constructor(props) {

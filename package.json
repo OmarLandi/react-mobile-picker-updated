@@ -1,11 +1,11 @@
 {
-  "name": "react-mobile-picker",
-  "version": "0.1.19",
+  "name": "react-mobile-picker-updated",
+  "version": "0.1.0",
   "description": "Select box component for React like iOS",
-  "main": "dist/lib/react-mobile-picker.js",
+  "main": "dist/lib/react-mobile-picker-updated.js",
   "repository": {
     "type": "git",
-    "url": "omarlandi/react-mobile-picker-update"
+    "url": "omarlandi/react-mobile-picker-updated"
   },
   "files": [
     "LICENCE",

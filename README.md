@@ -28,7 +28,7 @@ Or visit (in mobile or mobile simulator): [http://adcentury.github.io/react-mobi
 ## Install
 
 ```
-npm install react-mobile-picker --save
+npm install react-mobile-picker-updated --save
 ```
 
 ## Usage
@@ -36,13 +36,13 @@ npm install react-mobile-picker --save
 ### ES6
 
 ```javascript
-import Picker from "react-mobile-picker"
+import Picker from "react-mobile-picker-updated"
 ```
 
 ### CommonJS
 
 ```javascript
-var Picker = require("react-mobile-picker")
+var Picker = require("react-mobile-picker-updated")
 ```
 
 ## Props
@@ -64,7 +64,7 @@ Here is an example of how to integrate React Mobile Picker:
 
 ```javascript
 import React, { Component } from "react"
-import Picker from "react-mobile-picker"
+import Picker from "react-mobile-picker-updated"
 
 class App extends Component {
   constructor(props) {

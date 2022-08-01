@@ -23,7 +23,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'react-mobile-picker': path.join(__dirname, '..', 'src')
+      'react-mobile-picker-updated': path.join(__dirname, '..', 'src')
     },
   },
   plugins: [
